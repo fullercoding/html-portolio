@@ -1,0 +1,129 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(222, 184, 135);
+
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+    
+} 
+
+nav ul{
+    background-color:rgb(194, 150, 92);
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px }
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:white
+}
+
+.hero-image{
+    background-image:url("../images/cliffs.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    position: relative;
+}
+
+.hero-text{
+    color: rgb(32, 165, 83);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#josieimage{
+    width: 17.5%;
+    border-radius: 25%;
+    border: 5px solid brown;
+}
+
+#center-low{
+    width: 50%;
+    float: left;
+    height:100%;
+}
+
+.main-article{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+form{
+    margin-top: 25px;
+}
+
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#center-low2{
+    background-color: rgb(222, 184, 135);   
+    width: 15%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: brown;
+    height: 5vh;
+    margin-top: 0px;
+    float:right;
+    text-align: right;
+}
+
+main{
+    overflow: auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px white
+
+}
+
